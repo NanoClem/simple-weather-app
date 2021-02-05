@@ -1,6 +1,6 @@
 // Demo controller
 const welcome = (req, res) => {
-    res.send('Welcome on simple weather app !');
+    res.send({message: 'Welcome on simple weather app !'});
 }
 
 
